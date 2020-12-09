@@ -1,0 +1,103 @@
+/* style.css */
+/* entire document */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header  */
+header {
+  background-color: #444;
+  height: 100px;
+}
+
+header nav {
+  width: 960px;
+  margin: auto;
+}
+
+header img {
+  margin-top: 15px;
+  float: left;
+}
+
+header span {
+  display: inline-block;
+  line-height: 100px;
+  margin-left: 90px;
+}
+
+header span:nth-child(2) {
+  margin-left: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+/* Main */
+main {
+  width: 960px;
+  margin: auto;
+}
+
+main img {
+  margin-top: 30px;
+}
+
+main p {
+  height: 330px;
+  overflow: auto;
+}
+
+main li:first-child {
+  margin-left: 0;
+}
+
+main li {
+  margin-left: 30px;
+  float: left;
+}
+
+main article {
+  width: 50%;
+  float: right;
+  margin-top: 30px;
+}
+
+main h2 {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+main p {
+  height: 330px;
+  overflow: auto;
+  margin-top: 5px;
+  margin-left: 30px;
+  font-style: italic;
+  line-height: 20px;
+}
+
+main div {
+  background-color: #111;
+  color: #eee;
+  margin-top: 5px;
+  margin-left: 30px;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+main div:hover {
+  background-color: #444;
+  color: rgb(23, 235, 235);
+  transition: 350ms;
+}
+
+/* footer */
+footer {
+  background-color: #444;
+  height: 125px;
+  margin-top: 30px;
+}
